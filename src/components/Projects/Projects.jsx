@@ -19,7 +19,7 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap -m-8">
           {projects.map((project) => (
             <a
               // href={project.link}

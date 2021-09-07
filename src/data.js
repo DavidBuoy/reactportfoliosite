@@ -40,17 +40,17 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      "David has the ability to learn new things and work collaboratively. He is always willing to tackle a new project, sometimes without a lot a solid requirements. He does a first pass, seeks input, takes feedback extremely well and refines until it hits the mark. Dave's work rate is also amazing - he has the ability to focus and turn around deliverables promptly, keeping things on schedule. I highly recommend David for digital creative projects.",
+    image: "",
+    name: "Kelli Gizzi",
+    company: "Principal at Kelli Gizzi Communications, LLC",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+      "I have hired David several times for design work at my nonprofit Dollar For. David is a pro. He is always able to deliver high quality work before the deadline. I highly recommend.",
+    image: "",
+    name: "Jared Walker",
+    company: "Founder at Dollar For",
   },
 ];
 
