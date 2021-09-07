@@ -41,26 +41,26 @@ export default function Projects() {
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
                   <br />
-                  <p>
-                    <button
+                  <button>
+                    <a
                       className="button"
                       href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       Live Application
-                    </button>
-                  </p>
-                  <p>
-                    <button
+                    </a>
+                  </button>
+                  <button>
+                    <a
                       className="mt-6 button"
                       href={project.repo}
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       Repository
-                    </button>
-                  </p>
+                    </a>
+                  </button>
                 </div>
               </div>
             </a>
