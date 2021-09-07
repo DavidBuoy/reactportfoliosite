@@ -6,7 +6,7 @@ export const projects = [
       "Some of the various Graphic Design projects that I've worked on. Some of these projects were duing school at Clark College and also for clients and employers.",
     image: "./img/project-1.png",
     link: "https://www.behance.net/davidbushard",
-    repo: "https://www.tailwindcss.com",
+    repo: "https://www.behance.net/davidbushard",
   },
   {
     title: "Loan Shark",
@@ -15,6 +15,7 @@ export const projects = [
       "This project was a collabrative effort with some classmates. This application allows someone to sign in and track loans and the payments made on each loan you have.",
     image: "./img/project-2.png",
     link: "https://loaning-sharks.herokuapp.com/",
+    repo: "https://github.com/DavidBuoy/loanShark",
   },
   {
     title: "ParkBuddy 2.0",
@@ -23,14 +24,16 @@ export const projects = [
       "This project was a collabrative effort with some classmates. This application allows someone search for national parks in thier state and get more information about the park.",
     image: "./img/project-3.png",
     link: "https://park-buddy-2.herokuapp.com/",
+    repo: "https://github.com/DavidBuoy/ParkBuddy2.0",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    title: "Employee Tracker",
+    subtitle: "Web Application",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "This application was designed so that you can search for an employee with a specific name or department. It uses a random employee API and was build using React.",
+    image: "./img/project-4.png",
+    link: "https://davidbuoy.github.io/employee-directory/",
+    repo: "https://github.com/DavidBuoy/employee-directory",
   },
 ];
 
