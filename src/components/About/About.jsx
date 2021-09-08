@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.css";
+import aboutPic from "../../img/me.jpeg";
 export default function About() {
   return (
     <section id="about">
@@ -21,7 +22,7 @@ export default function About() {
           </div>
 
           <div>
-            <img className="image" src="../../img/me.jpeg" alt="" srcset="" />
+            <img className="image" src={aboutPic} alt="" srcset="" />
           </div>
         </div>
       </div>
