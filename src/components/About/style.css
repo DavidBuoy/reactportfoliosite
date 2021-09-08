@@ -22,15 +22,20 @@
   .hero-h1 {
     font-size: 30px;
   }
-  .imgage {
-    width: 200px;
-    height: auto;
-  }
 }
 
 .about-header {
   font-size: 50px;
   color: orange;
+}
+
+.image {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 @media (min-width: 100px) {
@@ -42,23 +47,15 @@
   .wrapper {
     padding: 15px;
   }
+  .image {
+    margin-bottom: 50px;
+  }
 }
 @media (min-width: 700px) {
   .about-grid {
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
   }
   .wrapper {
     padding: 70px;
   }
-}
-
-.image {
-  width: 400px;
-  height: auto;
-  border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
 }
