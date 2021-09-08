@@ -1,5 +1,13 @@
+#projects {
+  padding-top: 50px;
+}
+
+button {
+  margin-bottom: 15px;
+}
+
 .button {
-  margin: 10px;
+  margin: 5px;
   background-color: orange;
   border-radius: 5px;
   padding: 5px;
