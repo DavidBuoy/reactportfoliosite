@@ -64,3 +64,5 @@ export const skills = [
   "MySQL",
   "GitHub",
 ];
+
+export const about = [{ photo: "./img/me.jpeg" }];

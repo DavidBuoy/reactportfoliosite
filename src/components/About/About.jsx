@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import aboutPic from "../../img/me.jpeg";
+// import { about } from "../../data";
 export default function About() {
   return (
     <section id="about">
@@ -22,7 +23,13 @@ export default function About() {
           </div>
 
           <div>
-            <img className="image" src={aboutPic} alt="" srcset="" />
+            <img
+              className="image"
+              src={aboutPic}
+              alt="a picture of me"
+              height={300}
+              width={300}
+            />
           </div>
         </div>
       </div>
