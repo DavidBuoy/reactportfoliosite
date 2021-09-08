@@ -1,5 +1,5 @@
 #about {
-  height: 75vh;
+  height: auto;
   background-image: url(../../img/helens.png);
   background-size: cover;
   background-position: center center;
@@ -7,7 +7,7 @@
 }
 
 .hero-h1 {
-  font-size: 100px;
+  font-size: 80px;
   color: #101727;
   margin: 100px 20px;
 }
@@ -22,4 +22,43 @@
   .hero-h1 {
     font-size: 30px;
   }
+  .imgage {
+    width: 200px;
+    height: auto;
+  }
+}
+
+.about-header {
+  font-size: 50px;
+  color: orange;
+}
+
+@media (min-width: 100px) {
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+  .wrapper {
+    padding: 15px;
+  }
+}
+@media (min-width: 700px) {
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  .wrapper {
+    padding: 70px;
+  }
+}
+
+.image {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
